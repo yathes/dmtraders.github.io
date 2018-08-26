@@ -1,3 +1,73 @@
+
+ .goo {
+      font-family: 'Slabo 27px', serif;
+      font-size: 22px;
+    }
+
+    .jumbotron {
+      background-image: url(../images/2.png);
+      height: 100vh;
+      text-align: center;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+
+
+    .ml-4 {
+      margin-left: 600px !important;
+    }
+
+    .hh {
+      margin-top: 150px !important;
+    }
+
+    .hh1 {
+      margin-top: 150px;
+    }
+
+    .container {
+      position: relative;
+      
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 10%
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #008CBA;
+    }
+
+    .container:hover .overlay {
+      opacity: 0.8;
+    }
+
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
 .timeline {
   position: relative;
   padding: 0;
@@ -367,4 +437,12 @@
     margin: 15px 0;
     text-transform: none;
   }
-  
+.img-size{
+    height: 250px;
+    width: 895px ;
+    border-radius: 10%
+}
+.spacing
+{
+    padding: 50px;
+}
